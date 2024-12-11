@@ -86,4 +86,12 @@ void register(Map<String, String> userDatabase) {
   String? newUsername = stdin.readLineSync();
   print("Bitte gib dein Passwort ein:");
   String? newPassword = stdin.readLineSync();
+
+
+}
+// Funktion für den Gastzugang
+void guestAccess() {
+  print("Du hast Gast verwenden gewählt.");
+  print("Willkommen im Gastmodus! Du kannst das System ohne Anmeldung verwenden.");
+}
 }
