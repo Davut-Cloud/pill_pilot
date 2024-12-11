@@ -70,4 +70,13 @@ void main() {
         break;
     }
   }
+  // Funktion für die Benutzeranmeldung
+  login(Map<String, String> userDatabase) {
+  print("Du hast Login ausgewählt.");
+  print("Bitte gib deinen Benutzernamen ein:");
+  String? username = stdin.readLineSync();
+  print("Bitte gib dein Passwort ein:");
+  String? password = stdin.readLineSync();
+
+}
 }
