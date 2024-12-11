@@ -1,7 +1,8 @@
 import 'dart:io';
 
+
 void main() {
-  
+  // Beispiel-Benutzerdaten (normalerweise in einer Datenbank gespeichert)
   Map<String, String> userDatabase = {};
 
   bool isRunning = true;
