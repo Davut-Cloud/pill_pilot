@@ -79,4 +79,11 @@ void main() {
   String? password = stdin.readLineSync();
 
 }
+// Funktion für die Benutzerregistrierung
+void register(Map<String, String> userDatabase) {
+  print("Du hast Registrierung gewählt.");
+  print("Bitte gib deinen gewünschten Benutzernamen ein:");
+  String? newUsername = stdin.readLineSync();
+  print("Bitte gib dein Passwort ein:");
+  String? newPassword = stdin.readLineSync();
 }
